@@ -22,7 +22,7 @@
 num1 = int(input("Ingrese el primer numero: "))
 num2 = int(input("Ingrese el segundo numero: "))
 
-print("Seleccione una operación")
+print("Seleccione una operaciónn")
 print("Sus operaciones son las siguientes: ")
 print("Suma: +")
 print("Resta: -")
