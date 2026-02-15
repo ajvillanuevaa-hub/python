@@ -1,5 +1,8 @@
-numero = input("Ingresa un número para duplicar: ")
+entrada = input("Ingresa un número para duplicar: ")
 
-resultado = numero * 2
-
-print(f"El doble es: {resultado}")
+if entrada.isdigit():
+    numero = int(entrada)
+    resultado = numero * 2
+    print(f"El doble es: {resultado}")
+else:
+    print("Error: Debes ingresar un número válido.")
